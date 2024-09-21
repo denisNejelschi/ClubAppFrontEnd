@@ -7,9 +7,7 @@ function LoginForm() {
     <div className={styles.form}>
       <Input name={'email'} type={'email'} placeholder={'Type your email'} label={'Email'} />
       <Input name={'password'} type={'password'} placeholder={'Type your password'} label={'Password'} />
-      <Button label={''} onClick={function(): void {
-              throw new Error('Function not implemented.');
-          } } />
+      <Button />
     </div>
   );
 }
