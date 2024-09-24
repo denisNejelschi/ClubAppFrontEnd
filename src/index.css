@@ -1,4 +1,4 @@
-html, body {
+html, main, body {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -6,30 +6,3 @@ html, body {
     flex-direction: column;
 }
 
-body {
-    background-color: aliceblue;
-    display: flex;
-    flex-direction: column;
-}
-
-main {
-    flex: 1; /* Основное содержимое заполняет оставшееся пространство */
-    display: flex;
-    flex-direction: column;
-    min-height: 86vh;
-}
-
-.buttons_container {
-    margin-top: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    width: 100%;
-}
-
-.product_Card_Container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-
-}
