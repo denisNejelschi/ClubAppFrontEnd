@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./footer.module.css"
+import Button from "../button/Button";
 
 export const Footer: React.FC = () => {
     return (
@@ -7,6 +8,10 @@ export const Footer: React.FC = () => {
             <h3>
                 Footer component
             </h3>
+            <Button label={'login'} onClick={function(): void {
+                throw new Error('Function not implemented.');
+            }}
+            />
         </div>
     );
 };
